@@ -1,0 +1,12 @@
+
+div {
+    background-color: rgb(241, 241, 201);
+    width: 300px;
+    height: 200px;
+
+    padding: 50px;
+    margin: 50px;
+    border: 20px dashed rgb(169, 19, 19);
+  }
+
+  
