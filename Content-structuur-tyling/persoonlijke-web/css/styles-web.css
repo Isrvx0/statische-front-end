@@ -1,19 +1,50 @@
-/* Opdracht 1: Geef elk kopje (h1, h2, h3, ...) een andere tekstkleur en geef de body een achtergrond kleur */
-
   h1 {
-    color: rgb(131, 11, 11);
+    color: #661869;
     text-align: center;
   }
 
-  
-div {
-    background-color: rgb(241, 241, 201);
-    width: 300px;
-    height: 200px;
-
-    padding: 50px;
-    margin: 50px;
-    border: 20px dashed rgb(169, 19, 19);
+  h2 {
+    color: rgb(169, 211, 255);
+    background-color: #5c6fa4;
   }
 
+  p {
+    color: #0d031a;
+    }
+
+  body {
+    background-color: #c1cdef;
+    margin: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+  div {
+    background-color: rgb(140, 183, 228);
+    width: 500px;
+    height: 70px;
+
+    padding: 10px;
+    margin: 10px;
+    border: 5px inset rgb(74, 88, 153);
+    text-align: center;
+  }
+
+  nav {
+    list-style-type:none;
+    overflow:hidden;
+    background-color: #7085b3;
+  }
+
+  li {
+    float:left;
+  }
   
+  nav a {
+    display:block;
+    color: rgb(170, 213, 242);
+    padding: 10px;   
+  }
+
+  nav a:hover {
+  background-color: rgb(54, 73, 99); 
+  }
