@@ -1,0 +1,19 @@
+/* Opdracht 1: Geef elk kopje (h1, h2, h3, ...) een andere tekstkleur en geef de body een achtergrond kleur */
+
+  h1 {
+    color: rgb(131, 11, 11);
+    text-align: center;
+  }
+
+  
+div {
+    background-color: rgb(241, 241, 201);
+    width: 300px;
+    height: 200px;
+
+    padding: 50px;
+    margin: 50px;
+    border: 20px dashed rgb(169, 19, 19);
+  }
+
+  
