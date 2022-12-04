@@ -6,16 +6,17 @@
   h2 {
     color: rgb(169, 211, 255);
     background-color: #5c6fa4;
+    font-family:'Times New Roman', Times, serif;
   }
 
   p {
     color: #0d031a;
+    font-family:Georgia, 'Times New Roman', Times, serif;
     }
 
   body {
     background-color: #c1cdef;
     margin: 50px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
   }
 
   div {
@@ -43,6 +44,8 @@
     display:block;
     color: rgb(170, 213, 242);
     padding: 10px;   
+    font-family:Arial, Helvetica, sans-serif;
+
   }
 
   nav a:hover {
