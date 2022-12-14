@@ -51,3 +51,9 @@
   nav a:hover {
   background-color: rgb(54, 73, 99); 
   }
+
+  @media screen and (min-width: 750px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
