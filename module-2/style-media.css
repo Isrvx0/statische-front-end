@@ -1,0 +1,96 @@
+body {
+  background-color: #dba95d;
+  margin: 50px;
+}
+h1 {
+  color: #edd9c9;
+  text-align: center;
+}
+
+.first>p{
+  text-align: center;
+  color: #893900
+}
+h5 {
+  color: rgb(5, 2, 0);
+  text-align: center;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+p {
+  color: rgb(118, 49, 6);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+
+@media screen and (max-width: 992px) {
+  body {
+      background-color: rgb(35, 53, 146);
+    }
+    h1 {
+        color: aliceblue;
+    }
+    .first>p{
+        text-align: center;
+        color: rgb(206, 213, 254)
+    }
+    p{
+        color:rgb(195, 202, 229)
+    }
+    h5{
+        color:rgb(213, 208, 235) ;
+    }
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(146, 35, 35);
+  }
+  h1 {
+      color: aliceblue;
+  }
+  .first>p{
+      text-align: center;
+      color: rgb(206, 213, 254)
+  }
+  p{
+      color:rgb(195, 202, 229)
+  }
+  h5{
+      color:rgb(213, 208, 235) ;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    background-color: rgb(236, 132, 48);
+  }
+  h1 {
+      color: aliceblue;
+  }
+  .first>p{
+      text-align: center;
+      color: rgb(206, 213, 254)
+  }
+  p{
+      color:rgb(195, 202, 229)
+  }
+  h5{
+      color:rgb(213, 208, 235) ;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
