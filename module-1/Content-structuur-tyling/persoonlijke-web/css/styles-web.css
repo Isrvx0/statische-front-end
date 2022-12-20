@@ -52,8 +52,21 @@
   background-color: rgb(54, 73, 99); 
   }
 
-  @media screen and (min-width: 750px) {
+  @media screen and (max-width: 992px) {
     body {
-      background-color: lightgreen;
+        background-color: rgb(141, 152, 205);
+      }
+  }
+  
+  @media screen and (max-width: 768px) {
+    body {
+      background-color: rgb(98, 98, 142);
     }
   }
+  
+  @media screen and (max-width: 576px) {
+    body {
+      background-color: rgb(111, 113, 155);
+    }
+  }
+  
