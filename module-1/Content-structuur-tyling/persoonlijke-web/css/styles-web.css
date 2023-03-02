@@ -1,370 +1,110 @@
-.gallery {
-  border: 1px solid #ccc;
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css");
+
+html{
+	font-family:'Times New Roman', Times, serif;
 }
 
-.gallery:hover {
-  border: 1px solid #777;
+header {
+  height: 100px;
 }
 
-.gallery img {
-  width: 100%;
-  height: auto;
+header nav {
+  float: left;
 }
-
-.desc {
-  padding: 10px;
-  text-align: center;
+header nav ul li {
+  display:inline-block;
+  margin-top: 7%;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-.responsive {
-  padding: 0 6px;
-  float:left;
-  width: 24.99999%;
-  margin-bottom: 100px;
-}
-
-.project>h2{
-  text-align: center;
-}
-
-.back{
+header nav ul li a {
+  color: #444444;
   font-weight: bold;
-  color: #fffdfd;
-  padding: 14px 25px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
+  display: block;
+  margin-right: 10px;
+}
+header nav ul li:last-child a {
+  text-transform: uppercase;
+  color: rgb(249, 1, 1);
 }
 
-.title {
-  padding: 10px;
-  border: 3px  rgba(254, 254, 254, 0.934);
-  text-align: center;
-  margin: 2%;
-}
-
-.column {
-  float: left;
-  width: 33.33%;
-  padding: 15px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.column>h3{
-  padding: 5px;
-}
-.education img{
-  width: 50%;
+.text_box {
+  background-color: rgb(169, 169, 169);
+  width: auto;
   height: auto;
-  margin-right: 20px;
-  float: left;
-}
-.education>p{
-  text-align: left;
-  margin-top: 5%;
-  margin-bottom: 100px;
-}
-
-@media screen and (min-width: 768px) {
-  /* .header {
-  background-color: #f1f1f1;
-  padding: 20px;
-  text-align: center;
-}
-
-.footer {
-  background-color: #f1f1f1;
   padding: 10px;
-  text-align: center;
-} */  
-   
-  body {
-        background-color: rgb(247, 211, 157);
-      }
-    h1 {
-        color: #ffffff;
-        padding: 20px;
-        text-align: center;
-      }
-    h2 {
-        color: rgba(247, 247, 247, 0.991);
-        background-color: #e7a234;
-        font-family:'Times New Roman', Times, serif;
-      }
-    .header , .footer{
-        background-color: #d3ad70;
-      }
-    .column>h3{
-        background-color: #ffcd60;
-        color: rgb(135, 104, 64);
-      }
-    .column>p{
-      font-weight: bold;
-    }
-    .intro>p{
-        font-family: Georgia, serif;
-        text-align: center;
-        color: rgb(156, 65, 25);
-        font-weight:bold;
-      }
-    .project>h2{
-        background-color: #b38b4f;
-        color: #ffffff;
-        margin-top: 5%;
-      }
-    .project>img{
-        margin-top: 1%;
-        float: right;
-        margin-right: 5%;
-        margin-left: 20%;
-      }
-    .project>p{
-      font-size: larger;
-      text-align: left;
-      margin-top: 4%;
-      margin-bottom: 10%;
-      }
-  
-    .gallery{
-        border: 2px solid rgba(255, 174, 0, 0.929);
-      }
-    .education img{
-      width: 30%;
-      }
-    .education>p{
-      margin-top: 7%;
-      font-weight: bold;
-    }
-    nav {
-        list-style-type:none;
-        overflow:hidden;
-        background-color: #d9a337;
-      }
-    
-    li {
-        float:left;
-        border-right: 1px solid rgba(254, 254, 254, 0.934);
-      }
-    li:last-child {
-        border-right: none;
-      }
-      
-    nav a {
-        display:block;
-        color: rgb(5, 5, 5);
-        text-decoration: none;
-        padding: 10px;   
-        font-family:'Times New Roman', Times, serif;
-        font-weight: bold;
-    
-      }
-    nav a:hover {
-      background-color: rgb(88, 8, 8); 
-      }
-    .back{
-      margin-top: 7%;
-      background-color: #d9a337; 
-      }
-    .title{
-        background-color: #b99661;
-        color: whitesmoke;
-        margin-left: 20% ;
-        margin-right: 20% ;
-        padding: 2px;
-        border: 3px rgba(254, 254, 254, 0.934);
-      }
+  margin: 70px 20px;
+}
+.text_box h1{
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.text_box p{
+  margin-left: 30px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+  color: red;
+}
 
-    }
-  @media screen and (min-width: 576px) and (max-width: 768px) {
-    body {
-      background-color: rgb(87, 84, 84);
-    }
-    h1 {
-        color: #fffdfd;
-        text-align: end;
-      }
-    h2 {
-      color: rgba(250, 250, 250, 0.991);
-      font-family:'Times New Roman', Times, serif;
-      background-color: #333333;
-    }
-    .column>h3 {
-      background-color: rgb(61, 58, 58);
-      color: rgb(255, 254, 254);
-    }
-    
-    p {
-      font-family: Georgia, serif;
-      color: rgb(255, 255, 255);
-    }
-    .intro>p{
-        text-align: left;
-      }
-    .intro>h2{
-        background-color: #333333;
-        margin-left: 17%;
-    }
-    .intro>img{
-      float: left;
-      margin-left: 17%;
-      margin-right: 3%;
-    }
-    .intro>img:hover{
-      border: 1px solid #777;
-      text-decoration:overline;
-    }
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
 
-    .project>h2{
-      background-color: #333333;
-      margin-top: 5%;
-    }
-    .project>img{
-      margin-top: 1%;
-      float: left;
-      margin-bottom: 5%;
-    }
-    .project>p{
-      text-align: left;
-      margin-left: 47%;
-      margin-top: 14%;
-      margin-bottom: 15%;
-    }
-    .title{
-      background-color: #ffffff;
-      color: #1a0d0d;
-      font-weight: bold;
-    }
 
-    nav {
-      list-style-type:none;
-      margin-right: 10px;
-      padding: 0;
-      width: 15%;
-      background-color: #000000;
-      position: fixed;
-      height: 100%;
-      overflow: auto;
-    }
-    nav a {
-      display:block;
-      color: rgb(254, 206, 197);
-      text-decoration: none;
-      padding: 10px;   
-      font-family:Arial, Helvetica, sans-serif;
-  
-    }
-    nav a:hover {
-    background-color: rgb(255, 255, 255);
-    color: #000000;
-    font-family: cursive;
-    }
 
-    .back{
-      background-color: #050000;
-    }
-    .desc{
-      color: #c1c1c1;
-    }
 
-  }
-  
-  @media screen and (max-width: 576px) {
-    body {
-      background-color: rgb(194, 195, 230);
-    }  
-    
-    h1 {
-      color: #275470;
-      text-align: center;
-    }
-  
-    h2 {
-      color: rgb(255, 255, 255);
-      background-color: #65769e;
-      font-family:'Times New Roman', Times, serif;
-    }
-    .project>img{
-      margin-top: 1%;
-      float: left;
-      margin-bottom: 5%;
-    }
-    .project>p{
-      text-align: left;
-      margin-left: 265px;
-      margin-top: 14%;
-      margin-bottom: 15%;
-    }
+/* #hero-image {
+  height: 200px;
+  margin: 10px;
+  padding-top: 1px;
+  background: url('../image/background.jpg') no-repeat center;
+}
+#hero-image h2 {
+  margin: 10% 1px 0;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+#hero-image h3{
+  margin-left: 7%;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+ */
 
-    .column>h3{
-      background-color: #538492;
-      color: rgb(255, 255, 255);
-    }
-  
-    p {
-      color: #222249;
-      font-family:Georgia, 'Times New Roman', Times, serif;
-      }
-  
-    .intro>p{
-      font-family: Georgia, serif;
-      text-align: center;
-    }
-    .school>p{
-      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    }
-    .img1 {
-      float: right;
-    }
-    .img2 {
-      float:left;
-    }
-    nav {
-      list-style-type:none;
-      overflow:hidden;
-      background-color: #65769e;
-    }
-  
-    li {
-      float:left;
-      border-right: 1px solid #bbb;
-  
-    }
-  
-    li:last-child {
-      border-right:none;
-      float: right;
-    }
-    
-    nav a {
-      display:block;
-      color: rgb(255, 255, 255);
-      text-decoration: none;
-      padding: 10px;   
-      font-family:Arial, Helvetica, sans-serif;
-    }
-    
-    nav a:hover {
-    background-color: rgb(255, 255, 255);
-    color: #032673;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-    }
 
-    .back{
-      background-color: #acb2f7;
-      color: #222249;
-    }
-    .gallery {
-      border: 2px solid #8192ba;
-    }
-    
-  
-  }
+
+/* #elem1,#elem2,#elem3,#elem4,#elem5,#sub *{
+	border:1px solid grey;
+}
+
+#elem1{
+	background-color:red;
+}
+#elem2{
+	background-color: orange;
+}
+#elem4{
+	background-color: green;
+}
+#elem5{
+	background-color: blue;
+}
+#sub *{
+	background-color:yellow;
+} */
+
+
+/* <header>
+<div class="d-flex .align-items-center bg-light" style="height:150px">
+  <div class="p-2 border">
+    <li><a href= "hobby.html"> hobbies </a> </li>
+  </div>
+  <div class="p-2 border">
+    <li><a href= "education.html"> Education </a> </li>
+  </div>
+  <div class="p-2 border">
+    <li><a href= "projects.html"> Projects </a> </li>
+  </div>
+  <div class="p-2 border">
+    <li><a target="_blank" href= "https://github.com/Isrvx0/statische-front-end"> GitHub </a></li>
+  </div>
+</div>
+</header> */
