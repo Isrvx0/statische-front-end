@@ -62,62 +62,24 @@ footer h5{
   margin-top: 50px;
 }
 
-
-
-/* #hero-image {
-  height: 200px;
-  margin: 10px;
-  padding-top: 1px;
-  background: url('../image/background.jpg') no-repeat center;
-}
-#hero-image h2 {
-  margin: 10% 1px 0;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-}
-#hero-image h3{
-  margin-left: 7%;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-}
- */
-
-
-
-/* #elem1,#elem2,#elem3,#elem4,#elem5,#sub *{
-	border:1px solid grey;
+i{
+  font-size: 2rem; 
+  color:#8296af;
 }
 
-#elem1{
-	background-color:red;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 15%;
+  transform: translate(-50%, -50%)
 }
-#elem2{
-	background-color: orange;
-}
-#elem4{
-	background-color: green;
-}
-#elem5{
-	background-color: blue;
-}
-#sub *{
-	background-color:yellow;
-} */
 
-
-/* <header>
-<div class="d-flex .align-items-center bg-light" style="height:150px">
-  <div class="p-2 border">
-    <li><a href= "hobby.html"> hobbies </a> </li>
-  </div>
-  <div class="p-2 border">
-    <li><a href= "education.html"> Education </a> </li>
-  </div>
-  <div class="p-2 border">
-    <li><a href= "projects.html"> Projects </a> </li>
-  </div>
-  <div class="p-2 border">
-    <li><a target="_blank" href= "https://github.com/Isrvx0/statische-front-end"> GitHub </a></li>
-  </div>
-</div>
-</header> */
+.text_with_image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.text_with_image h3{
+  margin-left: 50%;
+  letter-spacing: 20px;
+}
