@@ -5,7 +5,7 @@ html{
 }
 
 header {
-  height: 100px;
+  height: 75px;
 }
 
 header nav {
@@ -13,14 +13,13 @@ header nav {
 }
 
 header nav ul li {
-  display:inline-block;
-  margin-top: 7%;
+  display:grid;
+  margin-top: 3%;
 }
 header nav ul li a {
   color: #444444;
   font-weight: bold;
   display: block;
-  margin-right: 10px;
 }
 header nav ul li:last-child a {
   text-transform: uppercase;
@@ -33,7 +32,7 @@ header nav ul li:last-child a {
   width: auto;
   height: auto;
   padding: 10px;
-  margin: 70px 20px;
+  margin: 50px 20px;
 }
 .text_box h1{
   font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
@@ -48,6 +47,7 @@ header nav ul li:last-child a {
 footer {
   padding: 20px;
 }
+
 footer h5{
   font-weight: bolder;
   font-family:'Times New Roman', Times, serif;
@@ -66,20 +66,6 @@ i{
   font-size: 2rem; 
   color:#8296af;
 }
-
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 15%;
-  transform: translate(-50%, -50%)
-}
-
-.text_with_image {
-  position: relative;
-  text-align: center;
-  color: white;
-}
-.text_with_image h3{
-  margin-left: 50%;
-  letter-spacing: 20px;
+.footer_fix{
+  margin-top: 155px;
 }
