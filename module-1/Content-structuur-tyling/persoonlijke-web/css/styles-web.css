@@ -66,6 +66,45 @@ i{
   font-size: 2rem; 
   color:#8296af;
 }
+
+.education h2{
+  margin-top: 50px;
+  font-weight: bolder;
+  text-align: center;
+}
+.education h4{
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: underline;
+  letter-spacing: 1rem;
+  margin-bottom: 20px;
+}
+.education img{
+  margin-bottom: 25px;
+}
+.education p{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin-top: 25px;
+}
+
+
+.project img{
+margin-top: 5%;
+
+}
+
+.project p{
+font-weight: bolder;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+padding-left: 10px;
+margin-top: 3%;
+}
+.project h3{
+  text-align: center;
+  font-weight: bolder;
+  margin-top: 7%;
+}
+
 .footer_fix{
   margin-top: 155px;
 }
