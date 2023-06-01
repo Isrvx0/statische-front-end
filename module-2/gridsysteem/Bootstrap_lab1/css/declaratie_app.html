@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #header-logo{
+            padding: 20px;
+        }
+        hr {
+            height:5px;
+            border-width:0;
+            background-color:tomato;
+        }
+      
+        h3{
+            color: tomato;
+            text-align: center;
+            text-decoration: underline overline;
+            text-decoration-thickness: 3px;
+        }
+    </style>
+    
+    
+    <title>Declaratie app</title>
+</head>
+<body>
+    <div id="a4">
+        <header>
+            <img id="header-logo" src="https://api.moreapp.com/api/v1.0/downloads/secured?f=customerResources/5f9f1e3dca34dd7cedf165d0&amp;h=086d8840d02dfe65bc0506a8851c76de88c697c44eef85a34b035a25f48e1f81adee422982b5f448c200a45818cb1e51a5724c25b23f6d76c67804a940dcac09&amp;e=9223372036854775807" alt=""style="max-width: 200px; max-height: 200px;">
+        </header>
+        <h3> Algemene Informatie</h3>
+        <div style="float:left;">
+            <p> Naam declarant: </p>
+            <p> IBAN: </p>
+            <p> Intern / extern: </p>
+            <p> Adres: </p>
+            <p> Type declaratie: </p>
+            <p> Bedrag: </p>
+        </div>
+        <div style="float:right;">
+            <p> Datum: </p>
+            <p> Naam klant: </p>
+            <p> Woonplaats: </p>
+            <p> Type betaling: </p>
+            <p> Toelichting: </p>
+        </div>
+
+        <tr class="${_hideWhenEmpty(datum)}">
+            <td class="more-field-label">Datum</td>
+            <td>${datum}</td>
+            <td class="more-field-label ${_hideWhenEmpty(naamVanDeDeclarant)}">Naam van de declarant.</td>
+            <td>${naamVanDeDeclarant}</td>
+            
+        </tr>
+    
+        <tr class="${_hideWhenEmpty(internextern)}">
+            <td class="more-field-label">Intern/extern</td>
+            <td>${internextern}</td>
+            <td class="more-field-label ${_hideWhenEmpty(nAWgegevens)}">Naam klant:</td>
+            <td>${nAWgegevens}</td>
+        </tr>
+        
+        <h3> Declaratiegegevens</h3>
+        
+      
+    </div>
+</body>
+</html>
