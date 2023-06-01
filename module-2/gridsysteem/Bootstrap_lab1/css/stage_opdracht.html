@@ -1,0 +1,211 @@
+<meta charset="utf-8">
+<style>
+     #header-logo{
+            padding: 10px;
+        }
+    hr {
+            height:5px;
+            border-width:0;
+            background-color:tomato;
+        }
+    h3{
+            color: tomato;
+            text-align: center;
+        }
+    /* #line{
+        border-bottom: solid 2px tomato; width:148mm;
+        border-top: solid 2px tomato; width:148mm;
+    } */
+
+    table.main, table.catalogue-table {
+        font-family: Tahoma, Verdana, Helvetica, Arial, sans-serif;
+        font-size: 12px;
+        color: #2b2a2b;
+        padding: 0;
+        width: 100%;
+    }
+
+    table.main th {
+        text-align: left;
+        font-weight: normal;
+    }
+
+    table.main td {
+        line-height: 150%;
+    }
+
+    table.main > tbody > tr:first-child > td:first-child {
+        width: 40%;
+    }
+
+    .more-field-label {
+        font-weight: bold;
+        vertical-align: top;
+    }
+
+    table.main table {
+        margin-left: -3px;
+        padding: 0;
+    }
+
+    table.table-horizontal {
+        width: 100%;
+        font-size: 12px;
+    }
+    table.table-horizontal td {
+        vertical-align: top;
+        overflow-wrap: break-word;
+        word-break: break-all;
+        word-wrap: break-word;
+    }
+
+    .type-detail > :not(.main:first-of-type) > tbody > tr > td > .horizontal-field > .table-horizontal > thead {
+        display: none;
+    }
+    .type-detail .main:first-of-type .table-horizontal thead {
+        display: table-header-group;
+    }
+
+    .hide-element {
+        display: none;
+    }
+
+    thead, tfoot {
+        display: table-row-group;
+    }
+    tr {
+        page-break-inside: avoid;
+    }
+    .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    }
+    #a4{
+            width: 148mm;
+            height: 210mm;
+        }
+    h4{
+        color:Tomato; 
+        text-align: center;
+    }
+</style>
+<div id="a4">
+    <table class="main" cellspacing="0" cellpadding="5">
+        <colgroup>
+            <col style="width:40%">
+            <col style="width:60%">
+        </colgroup>
+        <tbody>
+        
+        <tr class="${_hideWhenHidden('bfdb8c7f0501a3e722487331d595c1e5')}">
+            <td colspan="2">
+                <img id="header-logo" src="https://api.moreapp.com/api/v1.0/downloads/secured?f=customerResources/5f9f1e3dca34dd7cedf165d0&amp;h=086d8840d02dfe65bc0506a8851c76de88c697c44eef85a34b035a25f48e1f81adee422982b5f448c200a45818cb1e51a5724c25b23f6d76c67804a940dcac09&amp;e=9223372036854775807" alt=""style="max-width: 200px; max-height: 200px;">
+            </td>
+        </tr>
+
+        <tr class="${_hideWhenHidden('b0668a20dfa8f3a441355a5df26c50d9')}">
+            <td colspan="2">
+                <h3 id="line">Algemene gegevens</h3>
+            </td>
+        </tr>
+
+        <tr class="${_hideWhenEmpty(datum)}">
+            <td class="more-field-label">Datum</td>
+            <td>${datum}</td>
+            <td class="more-field-label ${_hideWhenEmpty(naamVanDeDeclarant)}">Naam van de declarant.</td>
+            <td>${naamVanDeDeclarant}</td>
+            
+        </tr>
+
+        <tr class="${_hideWhenEmpty(internextern)}">
+            <td class="more-field-label">Intern/extern</td>
+            <td>${internextern}</td>
+            
+            <td class="more-field-label ${_hideWhenEmpty(nAWgegevens)}">Naam klant:</td>
+            <td>${nAWgegevens}</td>
+        </tr>
+
+        <tr class="${_hideWhenEmpty(nAWgegevens1)}">
+            <td class="more-field-label">Straatnaam:</td>
+            <td>${nAWgegevens1}</td>
+            <td class="more-field-label">Woonplaats:</td>
+            <td>${nAWgegevens2}</td>
+        </tr>
+
+        <tr class="${_hideWhenEmpty(iBAN)}">
+            <td class="more-field-label">IBAN</td>
+            <td>${iBAN}</td>
+        </tr>
+
+    <tr class="${_hideWhenHidden('5870ec99b973e76bb0034aa2869d451f')}">
+        <td colspan="2">
+            <h3 id="line" style="color:Tomato;">Declaratiegegevens</h3>
+        </td>
+    </tr>
+
+    <tr class="${_hideWhenEmpty(soortDeclaratie1)}">
+        <td class="more-field-label">Soort declaratie:</td>
+        <td>${soortDeclaratie1}</td>
+        <td class="${_hideWhenEmpty(text)} more-field-label">Soort declaratie:</td>
+        <td>${text}</td>
+    </tr>
+
+    <tr class="${_hideWhenEmpty(toelichting1)}">
+        <td class="more-field-label">Toelichting:</td>
+        <td>${toelichting1}</td>
+        <td class="${_hideWhenEmpty(bedragInclBTW)} more-field-label">Bedrag (incl. BTW) :</td>
+        <td>${bedragInclBTW}</td>
+    </tr>
+
+    <tr class="${_hideWhenEmpty(betaalwijz)}">
+        <td class="more-field-label">Betaalwijze :</td>
+        <td>${betaalwijz}</td>
+    </tr>
+
+    <tr class="${_hideWhenEmpty(eenFotoVanEenBonOfRekeningAlsBewijs)}">
+        <td colspan="2">
+            <h3 style="text-align: left;">Afbeelding:</h3>
+            <span class="more-field-label">Een foto van een bon of rekening als bewijs :</span><br>
+            <img src="${eenFotoVanEenBonOfRekeningAlsBewijs}" alt="" style="max-width: 200px; max-height: 200px;">
+            
+            <h3>Akkoord : </h3>
+                <span class="more-field-label">Handtekenen.</span><br>
+            </td>
+        </td>
+    </tr>
+    
+    <tr class="${_hideWhenEmpty(eenFotoVanEenBonOfRekeningAlsBewijs)}">
+        <td class="more-field-label">Handtekenen:</td>
+        <img src="${signature}" alt="" style="max-width: 200px; max-height: 200px;">
+        
+        <td class="${_hideWhenEmpty(bedragInclBTW)} more-field-label">Bedrag (incl. BTW) :</td>
+        <td>${bedragInclBTW}</td>
+    </tr>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <tr class="${_hideWhenHidden('0d3be6f54d22711181dd278363a5955e')}">
+        <td colspan="2">
+        <h4>Bent u klaar? Vergeet niet rechtsboven te verzenden!
+        Bedankt voor het indienen.
+        </h4>
+        </td>
+    </tr>
+
+    <tr class="${_hideWhenHidden('7a40f5307c44557d4d167e96b5baad09')}">
+        <td colspan="2">
+            <img class="center" src="https://api.moreapp.com/api/v1.0/downloads/secured?f=customerResources/5f9f1e3dca34dd7cedf165d0&amp;h=086d8840d02dfe65bc0506a8851c76de88c697c44eef85a34b035a25f48e1f81adee422982b5f448c200a45818cb1e51a5724c25b23f6d76c67804a940dcac09&amp;e=9223372036854775807" alt="" style="max-width: 200px; max-height: 200px;">
+        </td>
+    </tr>
+
+        </tbody>
+    </table>
+</div>
